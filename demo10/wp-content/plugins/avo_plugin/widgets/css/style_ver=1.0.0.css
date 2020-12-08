@@ -1,0 +1,256 @@
+/* ----------------------------------------------------------------
+     [ Start Products ]
+-----------------------------------------------------------------*/
+.products .section-head {
+  margin-bottom: 40px; }
+
+.products .section-head p {
+  margin: 15px 0; }
+
+.products .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+  text-align: center; }
+
+.products .item:hover .info {
+  bottom: 30%; }
+
+.products .item:hover .info .icon {
+  display: inline-block;
+  margin-top: 38px; }
+
+.products .item:hover .product-img:after {
+  height: 100%;
+  opacity: .6;
+  top: 0;
+  visibility: visible; }
+
+.products .item .product-img {
+  overflow: hidden;
+  position: relative; }
+
+.products .item .product-img:after {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-top: 2px solid #75dab4;
+  content: '';
+  height: 25%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 75%;
+  transition: all .4s;
+  visibility: visible;
+  width: 100%; }
+
+.products .item .info {
+  color: #fff;
+  bottom: 5%;
+  left: 0;
+  padding: 0 15px;
+  position: absolute;
+  transition: all .4s;
+  width: 100%;
+  z-index: 4; }
+
+.products .item .info h6, .products .item .info h6 a {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  color: #fff; }
+
+.products .item .info span {
+  font-size: 13px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #eee; }
+
+.products .item .info .icon {
+  color: #eee;
+  cursor: pointer;
+  display: none;
+  font-size: 16px;
+  margin: 7px 10px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid #eee; }
+
+.products .item .info .icon .icon-text {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-top: -6px;
+  display: table;
+  clear: both;
+  -webkit-transform: translate3d(-50%, -100%, 0);
+  transform: translate3d(-50%, -100%, 0);
+  color: #fff !important;
+  padding: 3px 8px;
+  line-height: 1.5;
+  border-radius: 3px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  width: 80px;
+  border-color: #75dab4;
+  background-color: #75dab4; }
+
+.products .item .info .icon .icon-text:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  bottom: -5px;
+  left: 50%;
+  right: auto;
+  margin-bottom: 0;
+  margin-left: -4px;
+  margin-right: 0;
+  border-width: 5px 5px 0 5px;
+  border-color: transparent;
+  border-top-color: #75dab4; }
+
+.products .item .info .icon:hover {
+  color: #75dab4;
+  border-color: #75dab4; }
+
+.products .item .info .icon:hover .icon-text {
+  visibility: inherit;
+  opacity: 1; }
+
+/* ----------------------------------------------------------------
+     [ End Products ]
+-----------------------------------------------------------------*/
+/* Search */
+
+  .header-search-icon a.search {
+    font-size: 16px;
+    position: relative; }
+  .header-search-icon a.cart-contents {
+    font-size: 14px;
+    position: relative;
+    left: 20px; }
+  .header-search-icon a i {
+    color: #eee; }
+  .header-search-icon .close-black-block a i {
+    color: #ffffff; }
+  .header-search-icon .close-black-block a i.fa-times {
+    color: #ffffff; }
+  .header-search-icon .close-black-block a:after {
+    display: none; }
+  .header-search-icon .searchform input[type=search] {
+    font-style: italic;
+    font-size: 16px;
+    height: 56px; }
+  .header-search-icon .searchform .searchsubmit {
+    background: transparent; }
+  .header-search-icon .searchform::after {
+    background: #75dab4;
+    color: #ffffff !important;
+    right: 0;
+    height: 56px;
+    line-height: 56px;
+    width: 56px;
+    font-size: 2rem; }
+  .header-search-icon .searchform:hover::after {
+    opacity: 0.7; }
+  .header-search-icon.open .black-search-block {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  z-index: 9999999; }
+.header-search-icon.open .black-search-table-cell div {
+  top: 0px;
+  opacity: 1;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  -webkit-transition-delay: 150ms;
+  transition-delay: 150ms; }
+
+  /* ---------------------Search -------------------------------*/
+
+  .header-offcanvas-icon a.offcanvas {
+    font-size: 16px;
+    position: relative; }
+  .header-offcanvas-icon a.cart-contents {
+    font-size: 14px;
+    position: relative;
+    left: 20px; }
+  .header-offcanvas-icon a i {
+    color: #eee; }
+  .header-offcanvas-icon .close-black-block-offcanvas a i {
+    color: #ffffff; }
+  .header-offcanvas-icon .close-black-block-offcanvas a i.fa-times {
+    color: #ffffff; }
+  .header-offcanvas-icon .close-black-block-offcanvas a:after {
+    display: none; }
+  .header-offcanvas-icon .offcanvasform input[type=offcanvas] {
+    font-style: italic;
+    font-size: 16px;
+    height: 56px; }
+  .header-offcanvas-icon .offcanvasform .offcanvassubmit {
+    background: transparent; }
+  .header-offcanvas-icon .offcanvasform::after {
+    background: #75dab4;
+    color: #ffffff !important;
+    right: 0;
+    height: 56px;
+    line-height: 56px;
+    width: 56px;
+    font-size: 2rem; }
+  .header-offcanvas-icon .offcanvasform:hover::after {
+    opacity: 0.7; }
+
+    .black-offcanvas-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.9);
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+    z-index: -1;
+}
+  .header-offcanvas-icon.open .black-offcanvas-block {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  z-index: 9999999; }
+.header-offcanvas-icon.open .black-offcanvash-table-cell div {
+  top: 0px;
+  opacity: 1;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  -webkit-transition-delay: 150ms;
+  transition-delay: 150ms; }
+
+  

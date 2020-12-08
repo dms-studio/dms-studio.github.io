@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hoodies &#8211; Avo 01</title>
+	<atom:link href="http://avo.smartinnovates.com/product-category/hoodies/feed/" rel="self" type="application/rss+xml" />
+	<link>http://avo.smartinnovates.com</link>
+	<description>Creative Agency &#38; Showcase Portfolio</description>
+	<lastBuildDate>Thu, 08 Oct 2020 23:21:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+
+<image>
+	<url>http://avo.smartinnovates.com/wp-content/uploads/2020/10/cropped-Favicon-32x32.png</url>
+	<title>Hoodies &#8211; Avo 01</title>
+	<link>http://avo.smartinnovates.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Casual Sweater</title>
+		<link>http://avo.smartinnovates.com/product/casual-sweater/</link>
+					<comments>http://avo.smartinnovates.com/product/casual-sweater/#respond</comments>
+		
+		<dc:creator><![CDATA[Andres Alfaro]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2019 13:01:53 +0000</pubDate>
+				<guid isPermaLink="false">https://woocommercecore.mystagingwebsite.com/product/hoodie-with-zipper/</guid>
+
+					<description><![CDATA[This is a simple product.]]></description>
+										<content:encoded><![CDATA[<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://avo.smartinnovates.com/product/casual-sweater/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
